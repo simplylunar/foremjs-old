@@ -1,0 +1,26 @@
+{
+  "name": "foremjs",
+  "version": "0.1.0",
+  "description": "A wrapper for the ForemJS API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foremjs/foremjs.git"
+  },
+  "keywords": [
+    "forem",
+    "api"
+  ],
+  "author": "Daniel Newell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foremjs/foremjs/issues"
+  },
+  "homepage": "https://github.com/foremjs/foremjs#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
