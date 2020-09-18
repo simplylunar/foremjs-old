@@ -4,6 +4,7 @@ declare class Client {
   baseURL: string
   getArticle(key: number | string): Article
   getComment(id: string): Comment
+  createArticle(article: Article): Article
 }
 
 declare class Article {
