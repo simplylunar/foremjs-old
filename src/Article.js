@@ -6,7 +6,7 @@ class Article {
     this.description = article.description
     this.coverImage = article.cover_image
     this.socialImage = article.social_image
-    this.tags = article.tag_list
+    this.tags = article.tags
     this.slug = article.slug
     this.path = article.path
     this.url = article.url
@@ -21,12 +21,26 @@ class Article {
     this.bodyHTML = article.body_html
     this.bodyMarkdwon = article.body_markdown
     this.client = client
+    this.author = this.client.getUser(listing.user.username)
   }
-  get author() {
-
-  }
-  get organization() {
-
+  update (article) {
+    const put = {
+      article: {
+        title: article.title,
+        published: article.published,
+        body_markdown: article.bodyMarkdown,
+        tags: article.tags,
+        series: article.series,
+        canonical_url: article.canonicalURL
+      }
+    }
+    const a = axios(this.client.__('articles/' + this.id, 'put', put))
+    const commentRequest = await axios(this.__('comments?a_id=' + a.data.id, 'get'))
+    let comments = []
+    for (const comment of commentRequest.data) {
+      comments.push(new Comment(comment, this))
+     }
+    return new Article(a.data, comments, this.client)
   }
 }
 
