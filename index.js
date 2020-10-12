@@ -1,4 +1,7 @@
 module.exports.Article = require('./src/Article.js')
 module.exports.Client = require('./src/Client.js')
 module.exports.Comment = require('./src/Comment.js')
+module.exports.Listing = require('./src/Listing.js')
+module.exports.Tag = require('./src/Tag.js')
 module.exports.User = require('./src/User.js')
+module.exports.Webhook = require('./src/Webhook.js')

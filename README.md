@@ -1,4 +1,4 @@
-![NPM](https://img.shields.io/npm/l/foremjs?style=for-the-badge) ![API COVERAGE](https://img.shields.io/badge/api%20coverage-19%25-red?style=for-the-badge) ![npm](https://img.shields.io/npm/v/foremjs?style=for-the-badge) ![Codacy grade](https://img.shields.io/codacy/grade/b970ffc3edcc4b84b1330fdc951c851e?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues-raw/foremjs/foremjs?style=for-the-badge) ![npm bundle size](https://img.shields.io/bundlephobia/min/foremjs?style=for-the-badge) 
+![NPM](https://img.shields.io/npm/l/foremjs?style=for-the-badge) ![API COVERAGE](https://img.shields.io/badge/api%20coverage-59%25-cfff00?style=for-the-badge) ![npm](https://img.shields.io/npm/v/foremjs?style=for-the-badge) ![Codacy grade](https://img.shields.io/codacy/grade/b970ffc3edcc4b84b1330fdc951c851e?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues-raw/foremjs/foremjs?style=for-the-badge) ![npm bundle size](https://img.shields.io/bundlephobia/min/foremjs?style=for-the-badge) 
 
 # ForemJS
 
